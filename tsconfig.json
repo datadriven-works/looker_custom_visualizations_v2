@@ -1,17 +1,11 @@
 {
   "compilerOptions": {
-    "module": "es6",
-    "moduleResolution": "node",
-    "noImplicitReturns": true,
-    "outDir": "lib",
+    "jsx": "react",
+    "lib": ["dom", "es2015"],
+    "sourceMap": true,
     "strict": true,
-    "lib": [ "dom", "es6", "es2015.collection" ],
-    "target": "es5"
+    "esModuleInterop": true,
+    "noImplicitAny": false
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "rootDir": [
-    "src/"
-  ]
+  "exclude": ["node_modules"]
 }
